@@ -1,10 +1,10 @@
 <?php
 
-namespace R3bzya\OpenApiTesting\Tests;
+namespace Rebzya\OpenApiTesting\Tests;
 
 use Illuminate\Routing\Router;
 use Illuminate\Support\Str;
-use R3bzya\OpenApiTesting\Concerns\ValidateOpenApiSpecification;
+use Rebzya\OpenApiTesting\Concerns\ValidateOpenApiSpecification;
 
 abstract class TestCase extends \Orchestra\Testbench\TestCase
 {

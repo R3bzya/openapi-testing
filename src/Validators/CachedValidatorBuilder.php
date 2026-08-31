@@ -1,6 +1,6 @@
 <?php
 
-namespace R3bzya\OpenApiTesting\Validators;
+namespace Rebzya\OpenApiTesting\Validators;
 
 use Osteel\OpenApi\Testing\ValidatorBuilder;
 use Osteel\OpenApi\Testing\ValidatorInterface;

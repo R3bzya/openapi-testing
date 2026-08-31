@@ -1,6 +1,6 @@
 <?php
 
-namespace R3bzya\OpenApiTesting\Constraints;
+namespace Rebzya\OpenApiTesting\Constraints;
 
 use Illuminate\Support\Facades\File;
 use Osteel\OpenApi\Testing\ValidatorInterface;

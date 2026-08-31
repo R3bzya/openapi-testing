@@ -1,5 +1,5 @@
 {
-    "name": "r3bzya/openapi-testing",
+    "name": "rebzya/openapi-testing",
     "description": "This package allows you to integrate the specification validation into the flow of tests",
     "homepage": "https://github.com/R3bzya/openapi-testing",
     "type": "library",
@@ -18,12 +18,12 @@
     },
     "autoload": {
         "psr-4": {
-            "R3bzya\\OpenApiTesting\\": "src/"
+            "Rebzya\\OpenApiTesting\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "R3bzya\\OpenApiTesting\\Tests\\": "tests/"
+            "Rebzya\\OpenApiTesting\\Tests\\": "tests/"
         }
     },
     "scripts": {
@@ -33,7 +33,7 @@
     },
     "authors": [
         {
-            "name": "Aleksey R3bzya Yakushev",
+            "name": "Aleksei R3bzya Iakushev",
             "email": "r3bzya@gmail.com",
             "homepage": "https://github.com/R3bzya",
             "role": "Developer"

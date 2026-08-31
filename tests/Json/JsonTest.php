@@ -1,8 +1,8 @@
 <?php
 
-namespace R3bzya\OpenApiTesting\Tests\Json;
+namespace Rebzya\OpenApiTesting\Tests\Json;
 
-use R3bzya\OpenApiTesting\Tests\TestCase;
+use Rebzya\OpenApiTesting\Tests\TestCase;
 
 class JsonTest extends TestCase
 {

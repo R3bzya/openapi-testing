@@ -1,8 +1,8 @@
 <?php
 
-namespace R3bzya\OpenApiTesting\Concerns;
+namespace Rebzya\OpenApiTesting\Concerns;
 
-use R3bzya\OpenApiTesting\Constraints\SpecificationConstraint;
+use Rebzya\OpenApiTesting\Constraints\SpecificationConstraint;
 use Symfony\Component\HttpFoundation\Request as SymfonyRequest;
 use Symfony\Component\HttpFoundation\Response as SymfonyResponse;
 

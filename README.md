@@ -10,12 +10,12 @@ This package allows you to integrate the specification validation into the flow 
 Via Composer:
 
 ```shell
-composer require --dev r3bzya/openapi-testing
+composer require --dev rebzya/openapi-testing
 ```
 
 ## Usage
 
-You can use `\R3bzya\OpenApiTesting\Concerns\HasSpecificationAssertion` or `\R3bzya\OpenApiTesting\Concerns\ValidateOpenApiSpecification`
+You can use `\Rebzya\OpenApiTesting\Concerns\HasSpecificationAssertion` or `\Rebzya\OpenApiTesting\Concerns\ValidateOpenApiSpecification`
 just add one of them into your TestCase class.
 
 ### HasSpecificationAssertion

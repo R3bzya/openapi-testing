@@ -1,6 +1,6 @@
 <?php
 
-namespace R3bzya\OpenApiTesting\Concerns;
+namespace Rebzya\OpenApiTesting\Concerns;
 
 use Illuminate\Testing\TestResponse;
 

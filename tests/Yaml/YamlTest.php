@@ -1,8 +1,8 @@
 <?php
 
-namespace R3bzya\OpenApiTesting\Tests\Yaml;
+namespace Rebzya\OpenApiTesting\Tests\Yaml;
 
-use R3bzya\OpenApiTesting\Tests\TestCase;
+use Rebzya\OpenApiTesting\Tests\TestCase;
 
 class YamlTest extends TestCase
 {
