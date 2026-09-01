@@ -34,7 +34,7 @@ abstract class SpecificationConstraint extends Constraint
 
     public function toString(): string
     {
-        return 'is matching to the OpenApi Specification';
+        return 'matches the OpenAPI specification';
     }
 
     abstract protected function validator(string $definition): ValidatorInterface;
