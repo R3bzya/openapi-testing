@@ -9,7 +9,7 @@
     ],
     "require": {
         "php": "^8.2",
-        "osteel/openapi-httpfoundation-testing": "^0.11 || ^0.15",
+        "osteel/openapi-httpfoundation-testing": ">=0.11",
         "laravel/framework": ">=10.0 <14.0"
     },
     "require-dev": {
@@ -34,9 +34,8 @@
     "authors": [
         {
             "name": "Aleksei R3bzya Iakushev",
-            "email": "r3bzya@gmail.com",
-            "homepage": "https://github.com/R3bzya",
-            "role": "Developer"
+            "email": "aleksei@iakushev.com",
+            "homepage": "https://github.com/R3bzya"
         }
     ],
     "minimum-stability": "stable",
