@@ -29,5 +29,18 @@ The `ValidateOpenApiSpecification` trait integrates into the `call` method,
 allowing your application to validate the specification during the test flow.
 
 > **Note**  
-> If, for some reason, you do not need to validate the specification, disable it in your test method with the `skipOpenApiSpecificationValidation` method,
+> If, for some reason, you do not need to validate the specification, disable it in your test method with the `skipOpenApiSpecificationValidation()` method,
 > or disable it globally for the test class with the `skipOpenApiSpecificationValidation` property.
+
+### Validating only the request or only the response
+
+By default, both the request and the response are validated against the OpenAPI specification.
+If a test intentionally sends an invalid request or returns an intentionally invalid response,
+you can disable one of the two checks for that test:
+
+```php
+// Validate the response while allowing the request to be intentionally invalid.
+$this->validateOpenApiResponseOnly();
+
+// Validate the request only, skipping the response validation.
+$this->validateOpenApiRequestOnly();
